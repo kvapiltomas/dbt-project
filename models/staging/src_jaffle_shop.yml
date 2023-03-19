@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: jaffle_shop_
+    database: raw-data-381015
+    schema: jaffle_shop_
+    tables:
+      - name: customers
+      - name: orders
+      - name: payment
